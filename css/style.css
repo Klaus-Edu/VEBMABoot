@@ -1,5 +1,66 @@
 @import url('https://fonts.googleapis.com/css2?family=Signika+Negative&display=swap');
 
+body{
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+main{
+    flex: 1 0 auto;
+    min-height: 100%;
+}
+
 *{
     font-family: Signika Negative;
+}
+
+
+
+.navbar-brand img{
+    position: absolute;
+    left: 50%;
+    top: 5px;
+    margin-left: -100px;
+}
+
+.nav-item a{
+    color: #00448c;
+    transition: 0.3s;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.nav-item a:hover{
+    color: #00448c;
+    text-shadow: #00448c 1px 0 10px;
+    transition: 0.3s;
+}
+
+/*Rodapé*/
+
+.page-footer{
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    background-color: #212529;
+}
+
+.page-footer .footer-copyright{
+    padding: 20px 0;
+}
+
+.footer-copyright *{
+    color: white;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.footer-copyright a:hover{
+    color:#00448c;
+    text-shadow: #00448c 1px 0 10px;
+    transition: 0.3s;
+}
+
+.right{
+    float:right;
 }
