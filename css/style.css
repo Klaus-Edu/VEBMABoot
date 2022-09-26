@@ -8,6 +8,7 @@ body{
 main{
     flex: 1 0 auto;
     min-height: 100%;
+    padding-bottom: 80px;
 }
 
 *{
@@ -36,6 +37,75 @@ main{
     transition: 0.3s;
 }
 
+.navbar-nav .nav-link.active{
+    color: #00448c;
+    text-shadow: #00448c 1px 0 10px;
+}
+
+
+/*PAGINA EMPRESA*/
+.sobreVebma{
+    text-align: center;
+    padding: 20px 0;
+    font-size: 25px;
+}
+
+.sobreVebma h2{
+    font-weight: bold;
+    color: #00448c;
+    font-size:45px
+}
+
+.sobreVebma hr{
+    border: 5px solid #00448c;
+    opacity: 100;
+}
+
+/*CLIENTES*/
+
+.containerFlex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.linha{
+    border: 5px solid #00448c;
+    opacity: 100;
+}
+
+.clientes{
+    font-size: 30px;
+    text-align: center;
+    color: #00448c;
+}
+
+
+
+
+/*REDES SOCIAIS*/
+
+.redesSociais{
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+}
+
+.redesSociais a{
+    padding-right: 15px;
+    text-decoration: none;
+    color: #00448c;
+    transition: 0.3s;
+}
+
+.redesSociais a:hover{
+    font-size: 20px;
+    transition: 0.3s;
+}
+
+.redesSociais a i{
+    font-size: 36px;
+}
 /*Rodapé*/
 
 .page-footer{
